@@ -1,0 +1,41 @@
+# Embeddings (local — zero cost)
+sentence-transformers>=2.6.0
+torch>=2.3.0
+
+# LLM (Groq free API — OpenAI compatible)
+openai>=1.30.0
+
+# Vector DB client
+httpx>=0.27.0
+requests>=2.31.0
+
+# File parsing
+PyMuPDF>=1.24.0
+python-docx>=1.1.0
+pandas>=2.2.0
+markdown>=3.6
+
+# API
+fastapi>=0.111.0
+uvicorn[standard]>=0.30.0
+pydantic>=2.7.0
+python-multipart>=0.0.9
+
+# Dashboard
+streamlit>=1.35.0
+plotly>=5.22.0
+
+# Scheduling
+apscheduler>=3.10.0
+
+# Utilities
+python-dotenv>=1.0.0
+loguru>=0.7.0
+rich>=13.7.0
+faker>=25.0.0
+numpy>=1.26.0
+scikit-learn>=1.4.0
+
+# Testing
+pytest>=8.2.0
+pytest-asyncio>=0.23.0
